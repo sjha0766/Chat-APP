@@ -2,29 +2,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-body html {
-  width: 100%;
-  height: 100%;
-  padding: 1rem 10rem;
+body{
+  padding: 1rem 18rem;
+  background-image: url('https://plus.unsplash.com/premium_photo-1684761949512-fab7ef8a3b3c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2hhdHNhcHAlMjBjaGF0fGVufDB8fDB8fHww');
 }
+
 .userContainer {
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: whitesmoke;
   height: 15vh;
   display: flex;
 }
 .profile {
-  width: 80px;
-  height: 80px;
-  margin-top: 15px;
-  border-radius: 50px;
+  width: auto;
+  padding: 1rem;
+  border-radius: 1rem;
   cursor: pointer;
   
-}
-.profile:hover{
-    transform: scale(1.2);
-    transition: .3s;
 }
 
 .user-info {
@@ -38,9 +33,6 @@ body html {
 .profile_name{
     align-items: center;
     margin-top: 35px;
-    margin-left: 20px;
-    text-shadow: 2px 2px 4px #000000;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .display-msg {
@@ -48,6 +40,7 @@ body html {
     padding: 1rem 5rem;
     overflow-y: scroll;
     overflow-x: hidden;
+    background-image: url('https://images.unsplash.com/photo-1611175694989-4870fafa4494?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNoYXQlMjBhcHB8ZW58MHx8MHx8fDA%3D');
 }
 
 .align-left {
@@ -71,24 +64,28 @@ body html {
     padding: 1rem 5rem;
     display: flex;
     justify-content: center;
+    background-color: #fff;
 }
 
 .send-container{    
-   width: 700px;
+   width: 60vw;
    display: flex;
+   box-shadow: 1px 1px 1px 1px rgb(91, 93, 91);
+   border-radius: 1rem 1rem 1rem 1rem;
 }
-input{
-    
-    background-color: rgb(225, 235, 223);
-    padding: 20px;
-    font-size: 16px;
-   width: 700px;
+
+input{ 
+   background-color: rgb(225, 235, 223);
+   padding: 20px;
+   font-size: 16px;
+   width: 60vw;
    border: none;
-   border-radius: 1rem 0rem 0rem 0rem;
+   border-radius: 1rem 0rem 0rem 1rem;
+   outline: none;
    
 }
 .send-button {
-    background-color: rgb(225, 235, 223);
+  background-color: rgb(225, 235, 223);
   color: #fff;
   border: none;
   padding: 10px;
@@ -99,4 +96,4 @@ input{
     width: 40px; 
     height: 20px; 
     margin-right: 5px; 
-  }
+ }
