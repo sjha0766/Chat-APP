@@ -41,3 +41,7 @@ User Feedback:
 
 Gather user feedback and make improvements to enhance the user experience.
 Address any issues or bugs reported by users.
+
+
+#chat-application UI
+![image](https://github.com/Shardanandjha/chatApplicationAPI/assets/95860983/6080c47e-02e2-4fe6-acea-79920dea7fb6)
