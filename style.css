@@ -6,6 +6,7 @@
 body html {
   width: 100%;
   height: 100%;
+  padding: 1rem 10rem;
 }
 .userContainer {
   background-color: white;
@@ -25,25 +26,15 @@ body html {
     transform: scale(1.2);
     transition: .3s;
 }
-body {
-  border: 0.1rem solid black;
-  padding: 1rem 10rem;
-}
 
 .user-info {
   height: 15vh;
 }
-.display-msg {
-  height: 60vh;
-  padding: 1rem 5rem;
-}
-.send-msg {
-  height: 15vh;
-  padding: 1rem 5rem;
-}
+
 .img-select{
     display: none;
 }
+
 .profile_name{
     align-items: center;
     margin-top: 35px;
@@ -52,3 +43,26 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.display-msg {
+    height: 60vh;
+    padding: 1rem 5rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.align-left {
+    align-self: flex-start;
+    max-width: 60%;
+    margin: 1rem 0rem;
+    padding: 0.2rem;
+    border-radius: 1rem 1rem 1rem 0rem;
+}
+  
+.align-right {
+    align-self: flex-end;
+    max-width: 60%;
+    margin: 1rem 0rem;
+    box-shadow: black;
+    padding: 0.2rem;
+    border-radius: 1rem 0rem 1rem 1rem;
+}
