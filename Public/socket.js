@@ -19,10 +19,14 @@ function sendMessage() {
   socket.emit('chat message', message);
   appendMessage(message, 'sender');
   messageInput.value = '';
+  const chatWindow = document.querySelector('.display-msg');
+  chatWindow.scrollTop = chatWindow.scrollHeight;
 }
 
 socket.on('chat message', (msg) => {
   appendMessage(msg, 'receiver');
+  const chatWindow = document.querySelector('.display-msg');
+  chatWindow.scrollTop = chatWindow.scrollHeight;
 });
 
 document.addEventListener('keydown', function (event) {
