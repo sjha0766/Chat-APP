@@ -5,4 +5,8 @@ const messageRoutes = express.Router();
 
 messageRoutes.post('/',messageController);
 
+messageRoutes.get('/user',(req,res)=>{
+    res.send('hello from user');
+  })
+
 export default messageRoutes;
