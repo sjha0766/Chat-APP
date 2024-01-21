@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io('https://chat-app-dusky-three.vercel.app');
 
 const appendMessage = (message, msgType) => {
   const ul = document.querySelector('.list-group');
